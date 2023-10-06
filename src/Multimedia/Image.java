@@ -15,18 +15,13 @@ public class Image extends MultimediaElement implements ShowBrightness{
     public int brightnessIncreaser(){
         return brightness+1;
     }
-
-    @Override
-    public void play() {
-        super.play();
-        String brightnessIndicator = "*";
-        for (int k = 0; k < this.brightness; k++) {
-            System.out.println(brightnessIndicator);
-        }
-    }
-
+    
     @Override
     public void show() {
-        
+            String brightnessIndicator = "*";
+            for (int k = 0; k < this.brightness; k++) {
+                System.out.println(brightnessIndicator);
+            }
+        }
     }
 }
