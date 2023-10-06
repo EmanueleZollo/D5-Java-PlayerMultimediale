@@ -5,12 +5,12 @@ public abstract class MultimediaElement {
     protected int duration;
 
 
-  /*  CONSTRUCTOR PER IMMAGINE*/
+  /*  CONSTRUCTOR PER IMMAGINE   */
     public MultimediaElement(String title) {
         this.title = title;
     }
 
-    /*CONSTRUCTOR PER VIDEO E REGISTRAZIONE AUDIO*/
+    /*  CONSTRUCTOR PER VIDEO E REGISTRAZIONE AUDIO   */
     public MultimediaElement(String title, int duration) {
         this.title = title;
         this.duration = duration;
